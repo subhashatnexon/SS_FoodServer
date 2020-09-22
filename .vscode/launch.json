@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            // "name": "Your own server",
+            // "server": "http://localhost",
+            // "serverInstance": "DEMOBC160",
+            // // "serverInstance": "BC160",
+            // "authentication": "Windows",
+            "name": "Sandbox",
+            "sandboxName": "Shorty_Testing_Sandbox",
+             //"sandboxName": "Shorty_UAT_Sandbox",
+             "tenant": "9cd39e6b-90e9-4f3d-b908-956fc360154c",
+             "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+             "port": 7249            
+        }
+    ]
+}
